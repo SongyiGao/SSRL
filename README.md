@@ -13,12 +13,14 @@ To train an agent on CartPole-V1, run
 ```
 python baselines/ssrl_discrete/ssrl.py
 ```
+You can use `--env_id` to specify other environments.
 
 ## Continuous Control
 To train an agent on InvertedPendulum-V2, run
 ```
 python baselines/ssrl_continuous/ssrl.py
 ```
+You can use `--env_id` to specify other environments.
 
 ## Atari Pong
 The algorithm is implemented with distributed Tensorflow. We encounter an issue with Tensorflow 1.14.0. To run the code, you need to install a lower version of Tensorflow:
